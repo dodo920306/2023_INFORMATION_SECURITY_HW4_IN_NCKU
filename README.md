@@ -10,8 +10,8 @@ This is a repo for solving HW4 in 2023 Information Security courses in NCKU, in 
 To get started, you should clone this repo and enter it.
 
 ```bash
-$ git clone https://github.com/dodo920306/2023_INFORMATION_SECURITY_HW4_IN_NCKU.git
-$ cd 2023_INFORMATION_SECURITY_HW4_IN_NCKU
+$ git clone https://github.com/dodo920306/2023_Information_Security_HW4_in_NCKU.git
+$ cd 2023_Information_Security_HW4_in_NCKU
 ```
 
 Next, install pycryptodome in order to do AES
