@@ -2,11 +2,11 @@
 
 This is a repo for solving HW4 in 2023 INFORMATION_SECURITY courses in NCKU, in which a program should be designed to break an AES key according to known ciphertexts and parts of keys.
 
-# Prerequisites
+## Prerequisites
 * Python 3.8.10
 * pip 20.0.2
 
-# Get Started
+## Get Started
 To get started, you should clone this repo and enter it.
 
 ```bash
@@ -36,14 +36,14 @@ $ python main.py
 
 The following are the detail for the principle of this program.
 
-# Testing
+## Testing
 The problem includes AES in ECB mode with zeropadding. All using utf-8 as character encoding.
 
 In the beginning of the program, in order to check the encryption setting and the environment is functional, the program will use "123456789" in plaintext as key to encrypt the word "security". If every thing is OK, the ciphertext should be "pKjVPv28yVMn5cRXeUNYpg==".
 
 Next, likewise, in order to check the decryption setting and the environment is functional, the program will use "123456789" in plaintext as key to decrypt the previous ciphertext "pKjVPv28yVMn5cRXeUNYpg==". If every thing is OK, the result should be the original plaintext "security".
 
-# Input
+## Input
 Then, the program will ask users to input their student id in NCKU, this should be a string with length 9 and a number as the last character. Any invalid input that doesn't follow these two rules will be blocked.
 In response to what number the last character in input moduloing 5 is, let us say that is x, the program will get the corresponding ciphertext and key according to the following table.
 | x | ciphertext | key |
@@ -56,9 +56,14 @@ In response to what number the last character in input moduloing 5 is, let us sa
 
 '▆' indicates unknown characters in keys. That's why we can't get the plaintexts.
 
-# Solving
+## Solving
 If every thing is OK, the program will start solving the key and the plaintext. 
 
 The way the program use is just brute-force. The program will iterate through every possible byte in ASCII to replacing each '▆'. Since there are four '▆' in every key, the program will run a 4-level for-loop in order to get the correct combination in $(2^8)^4$ possible ones.
 
 A progress bar is there to allow users to check if the program is still working.
+
+## Result
+A functional result should look like this
+
+![Result](image.png)
