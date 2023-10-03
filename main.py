@@ -92,10 +92,10 @@ if __name__ == '__main__':
     print("所屬密文為:", ciphertext)
 
     key_set = {
-        0: "$\"▆vXl▆K▆\/ {9Fp▆",
-        1: "0lOS▆b] ▆&N) ▆w▆@+",
-        2: "Bk▆fom] ▆H▆ (J▆'|,",
-        3: "2▆? ▆mYD;@▆;x▆v\"i",
+        0: "$\"▆vXl▆K▆\/{9Fp▆",
+        1: "0lOS▆b]▆&N)▆w▆@+",
+        2: "Bk▆fom]▆H▆(J▆'|,",
+        3: "2▆?▆mYD;@▆;x▆v\"i",
         4: "|q▆~k=▆&?I$Fx▆N▆"
     }
     main_key = key_set[int(student_id[8]) % 5]

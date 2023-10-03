@@ -48,10 +48,10 @@ Then, the program will ask users to input their student id in NCKU, this should 
 In response to what number the last character in input moduloing 5 is, let us say that is x, the program will get the corresponding ciphertext and key according to the following table.
 | x | ciphertext | key |
 |-|-|-|
-|0|2NHkjlDyk82JBke5q8CnMQZ1iiHID8QEst+/Ld6lWFMP5omXXh/1LnmrYKOD04idKfzfL+6C96391/iN7+X0eg==|$"▆vXl▆K▆\/ {9Fp▆|
-|1|INNkAZHIpe5u9LvzhH24VyORcZQVDCFXzV6V/l9M7rpgqskMxvaRbGwR2dZaxMDZ|0lOS▆b] ▆&N) ▆w▆@+|
-|2|NnJyrVT80DxOU5jOxHdZ9NRlaLPRhaAUYANfaVACUeqcrPoXz5eeTs9m6X2fVJC9SJ+X03mu3zD/WTiUjwzIyg==|Bk▆fom] ▆H▆ (J▆'|,|
-|3|89NEvN56VtNjo1w5x3whmFUOZOqTaRyoMnIrPjCGKUv5n7kgGFHDmStzEgDFAU7QnZOK9MLeO/FW4etzIOhpKfOsw5xSD4Em72X1O2FRfaM=|2▆? ▆mYD;@▆;x▆v\"i|
+|0|2NHkjlDyk82JBke5q8CnMQZ1iiHID8QEst+/Ld6lWFMP5omXXh/1LnmrYKOD04idKfzfL+6C96391/iN7+X0eg==|$"▆vXl▆K▆\/{9Fp▆|
+|1|INNkAZHIpe5u9LvzhH24VyORcZQVDCFXzV6V/l9M7rpgqskMxvaRbGwR2dZaxMDZ|0lOS▆b]▆&N)▆w▆@+|
+|2|NnJyrVT80DxOU5jOxHdZ9NRlaLPRhaAUYANfaVACUeqcrPoXz5eeTs9m6X2fVJC9SJ+X03mu3zD/WTiUjwzIyg==|Bk▆fom]▆H▆(J▆'|,|
+|3|89NEvN56VtNjo1w5x3whmFUOZOqTaRyoMnIrPjCGKUv5n7kgGFHDmStzEgDFAU7QnZOK9MLeO/FW4etzIOhpKfOsw5xSD4Em72X1O2FRfaM=|2▆?▆mYD;@▆;x▆v\"i|
 |4|FZp57a6p84EUNC7I/ENj4RhPZtryOJr4che9JbA8ng1eI8ZMTlsl8kzicBDqkOqkFj3lwC69KR2MeA8lscVlig==|\|q▆~k=▆&?I$Fx▆N▆|
 
 '▆' indicates unknown characters in keys. That's why we can't get the plaintexts.
