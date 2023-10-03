@@ -1,6 +1,6 @@
-# 2023_INFORMATION_SECURITY_HW4_IN_NCKU
+# 2023_Information_Security_HW4_in_NCKU
 
-This is a repo for solving HW4 in 2023 INFORMATION_SECURITY courses in NCKU, in which a program should be designed to break an AES key according to known ciphertexts and parts of keys.
+This is a repo for solving HW4 in 2023 Information Security courses in NCKU, in which a program should be designed to break an AES key according to known ciphertexts and parts of keys.
 
 ## Prerequisites
 * Python 3.8.10
